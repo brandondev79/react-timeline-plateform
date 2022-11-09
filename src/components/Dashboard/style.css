@@ -1,0 +1,30 @@
+.btn-custom {
+    background-color: rgb(92, 42, 193, 0.9) !important;
+    transition-duration: 700ms !important;
+    color: white !important;
+    font-size: 500 !important;
+    border: none !important;
+    padding: 10px 50px !important;
+}
+
+.btn-custom:hover {
+    background-color: rgb(92, 42, 193, 0.7) !important;
+}
+
+.btn-add-lead-custom {
+    background-color: rgb(92, 42, 193, 0.9) !important;
+    transition-duration: 700ms !important;
+    color: white !important;
+    font-size: 500 !important;
+    border: none !important;
+    padding: 6px 25px !important;
+    margin-left: 210px !important;
+}
+
+.btn-add-lead-custom:hover {
+    background-color: rgb(92, 42, 193, 0.7) !important;
+}
+
+.content-custom {
+    padding: 0 16px !important;
+}

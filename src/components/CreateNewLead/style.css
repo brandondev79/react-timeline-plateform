@@ -1,0 +1,160 @@
+
+.icon-textfield {
+    position: absolute;
+    margin-top: 22px;
+}
+
+.text-field-custom {
+    width: 470px !important;
+}
+
+.text-field-custom >p {
+    margin: 0 !important;
+    min-height: unset !important;
+}
+
+.text-field-custom >div >input {
+    padding: 10px 0 10px 30px !important;
+}
+
+.text-field-custom >label {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.text-field-custom >label.Mui-focused {
+    /* margin: 0 !important; */
+    margin-top: 8px !important;
+    margin-left: 30px !important;
+}
+
+.text-field-custom input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+}
+.text-field-custom input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+}
+.text-field-custom input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+}
+.text-field-custom input:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+}
+
+.calendar-div-custom {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 470px !important;
+}
+
+.MuiDialogActions-root.MuiDialogActions-spacing {
+    display: none !important;
+}
+
+.calendar-div-custom button {
+    background: none !important;
+}
+
+.calendar-div-custom >label {
+    margin-left: 30px !important;
+    font-size: 14px;
+}
+
+.calendar-div-custom >div >input {
+    padding: 10px 0 10px 30px !important;
+}
+
+.calendar-div-custom >div >div {
+    position: absolute;
+    margin-left: -12px !important;
+    margin-top: -4px !important;
+}
+
+.margin-top-12px {
+    margin-top: 3px !important;
+}
+
+.h1-custom {
+    margin-left: 7px;
+    margin-top: 28px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fixed-txt {
+    position: absolute;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 21px;
+}
+
+.select-fixed-txt {
+    position: absolute;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 7px;
+}
+
+.fixed-text-field-custom {
+    width: 470px !important;
+    margin-top: 17px !important;
+}
+
+.fixed-text-field-custom >div >input {
+    padding-left: 60px;
+    font-size: 14px;
+}
+
+.city-custom >div >input {
+    padding-left: 37px;
+}
+
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    16%  {left:8px; top:0px;}
+    33%  {left:0px; top:0px;}
+    50%  {left:8px; top:0px;}
+    66%  {left:0px; top:0px;}
+    83%  {left:8px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    16%  {left:8px; top:0px;}
+    33%  {left:0px; top:0px;}
+    50%  {left:8px; top:0px;}
+    66%  {left:0px; top:0px;}
+    83%  {left:8px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+.text-field-custom >label.Mui-error {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 150ms; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 150ms;
+  animation-direction: alternate-reverse;
+}
+
+.margin-top-40px {
+    margin-top: 24px !important;
+}
+
+.new-select-custom >div >div >div >div.MuiInputBase-root {
+    padding-left: 45px;
+}
+
+.move-size >div >div >div >div.MuiInputBase-root {
+    padding-left: 80px;
+}
+
+.warning-svg-custom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+}

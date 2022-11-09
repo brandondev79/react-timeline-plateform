@@ -1,0 +1,47 @@
+{
+  "name": "rabbit-dashboard",
+  "version": "0.0.1",
+  "author": "Minh Nguyen",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "material-ui",
+    "react-dashboard"
+  ],
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.11",
+    "@material-ui/core": "^4.4.3",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/pickers": "^3.2.6",
+    "date-fns": "^2.2.1",
+    "formik": "^1.5.8",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-material-ui-form-validator": "^2.0.9",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.2",
+    "react-select": "^3.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify/icons-mdi": "^1.0.10",
+    "@iconify/react": "^1.1.1"
+  }
+}
